@@ -22,7 +22,5 @@ After graduating, I began my professional career at Bank Rakyat Indonesia, where
 ## Social Media
 
 - Instagram : [www.instagram.com/fattahabdulmm](https://www.instagram.com/fattahabdulmm/?hl=en)
-- Whatsapp :087882868095
 - X : [www.x.com/haaaghuman](https://x.com/haaaghuman)
-- Telegram : [https://web.telegram.fattahabdulmm](https://web.telegram.org/a/#1391965269)
 - Linked In : [www.linkedin.com/in/fattah-abdul-malik](www.linkedin.com/in/fattah-abdul-malik)
