@@ -24,3 +24,13 @@ After graduating, I began my professional career at Bank Rakyat Indonesia, where
 - Instagram : [www.instagram.com/fattahabdulmm](https://www.instagram.com/fattahabdulmm/?hl=en)
 - X : [www.x.com/haaaghuman](https://x.com/haaaghuman)
 - Linked In : [www.linkedin.com/in/fattah-abdul-malik](www.linkedin.com/in/fattah-abdul-malik)
+
+## Home
+
+### Profile 
+
+Hi i'm Fattah was born from Bandung in 1999. I'm an intuitive person by nature and able to sense pattern and understand people, who combines instinct with updated data and current literature to make better desicion, in a world so changes so fast.
+
+Turning knowledge into a professional world result, i value sustainable learning based on research and apply insight an a pratical way. Building sustainable in a longterm growth always be my priorities to make a big changes, and guided by the principle of Kaizen 1% that is focusing on small and meaningful step in every day. 
+
+I believe, to focusing to every little thing in every step will be truly matter, and become a powerfull create and transformative result. 
