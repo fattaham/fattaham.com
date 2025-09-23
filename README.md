@@ -15,7 +15,7 @@ Check out at [fattaham.com](https://fattaham.com)
 
 - Instagram : [www.instagram.com/fattahabdulmm](https://www.instagram.com/fattahabdulmm/?hl=en)
 - X : [www.x.com/haaaghuman](https://x.com/haaaghuman)
-- Linked In : [www.linkedin.com/in/fattah-abdul-malik](www.linkedin.com/in/fattah-abdul-malik)
+- Linked In : [www.linkedin.com/in/fattah-abdul-malik](https://linkedin.com/in/fattah-abdul-malik)
 
 ## Home
 
