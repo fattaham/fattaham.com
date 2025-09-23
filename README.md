@@ -9,6 +9,7 @@ Check out at [fattaham.com](https://fattaham.com)
 - Home
 - About
 - Contact
+- Projects
 
 ## Profil
 
