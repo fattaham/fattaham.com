@@ -6,7 +6,7 @@ Check out at [fattaham.com](https://fattaham.com)
 
 ## Design
 
-Figma URL: <>
+Figma URL: <https://www.figma.com/design/bPbQbx4BLM46eAMhBTP5cl/fattaham.com?node-id=3315-215&t=sPvgDmusm8RhaO3d-1>
 
 ## Pages
 
