@@ -33,8 +33,22 @@
     </p>
 
     <form>
-      <label for="full-name">Full Name</label>
-      <input id="full-name" type="text" />
+      <div>
+        <label for="full-name">Full Name</label>
+        <input id="full-name" name="full-name" type="text" />
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" />
+      </div>
+
+      <div>
+        <label for="message">Message</label>
+        <textarea id="message" name="message"></textarea>
+      </div>
+
+      <button type="submit">Send Message</button>
     </form>
   </body>
 </html>
