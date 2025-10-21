@@ -2,6 +2,10 @@ body {
   font-family: sans-serif;
 }
 
+.navigation-bar {
+  display: flex;
+}
+
 .navigation-links {
   display: flex;
   gap: 20px;
