@@ -25,6 +25,11 @@ body {
   width: 125px;
 }
 
+.home-hero {
+  margin: 0 auto;
+  max-width: 700px;
+}
+
 .home-profile-picture {
   border-radius: 50px;
   width: 100px;
@@ -45,6 +50,7 @@ body {
 .home-social-media-links {
   display: flex;
   gap: 20px;
+  padding: 0;
 }
 
 .home-featured-photos img {
