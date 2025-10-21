@@ -41,3 +41,8 @@ body {
   font-size: 20px;
   width: 700px;
 }
+
+.home-social-media-links {
+  display: flex;
+  gap: 20px;
+}
