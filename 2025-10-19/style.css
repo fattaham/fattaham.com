@@ -4,6 +4,7 @@ body {
 
 .navigation-bar {
   display: flex;
+  justify-content: space-between;
 }
 
 .navigation-links {
@@ -18,4 +19,8 @@ body {
 .navigation-links li a {
   color: #000;
   text-decoration: none;
+}
+
+.navigation-placeholder {
+  width: 125px;
 }
