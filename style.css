@@ -24,3 +24,7 @@ body {
 .navigation-placeholder {
   width: 125px;
 }
+
+.home-profile-picture {
+  border-radius: 50px;
+}
