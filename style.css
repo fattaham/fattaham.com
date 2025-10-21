@@ -27,4 +27,11 @@ body {
 
 .home-profile-picture {
   border-radius: 50px;
+  width: 100px;
+  height: 100px;
+}
+
+.home-introduction {
+  font-size: 48px;
+  width: 500px;
 }
