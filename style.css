@@ -55,5 +55,11 @@ body {
 }
 
 .home-featured-photos img {
-  border-radius: 40px;
+  border-radius: 20px;
+  justify-content: center;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
 }
