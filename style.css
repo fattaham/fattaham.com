@@ -1,5 +1,6 @@
 body {
   font-family: sans-serif;
+  margin: 0;
 }
 
 .navigation-bar {
@@ -75,9 +76,14 @@ body {
   justify-content: center;
 }
 
+.footer {
+  padding: 30px;
+}
+
 .copyright {
   display: flex;
   justify-content: center;
+  margin: 0;
 }
 
 .about-container {
