@@ -85,3 +85,14 @@ body {
   padding: 15px 30px;
   list-style: none;
 }
+
+.body {
+  line-height: 1.6;
+  padding: 40px;
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
