@@ -57,8 +57,15 @@ body {
 .home-featured-photos {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   gap: 60px;
+}
+
+.rotate-a {
+  transform: rotate(3deg);
+}
+
+.rotate-b {
+  transform: rotate(-3deg);
 }
 
 .home-featured-photos img {
@@ -70,11 +77,6 @@ body {
 .copyright {
   display: flex;
   justify-content: center;
-}
-
-.body {
-  line-height: 1.6;
-  padding: 40px;
 }
 
 .about-container {
