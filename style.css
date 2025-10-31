@@ -58,6 +58,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 60px;
+  margin-top: 80px;
 }
 
 .rotate-a {
