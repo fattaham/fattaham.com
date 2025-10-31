@@ -54,6 +54,13 @@ body {
   list-style: none;
 }
 
+.home-featured-photos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
 .home-featured-photos img {
   display: flex;
   border-radius: 20px;
