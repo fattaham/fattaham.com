@@ -6,6 +6,7 @@ body {
 .navigation-bar {
   display: flex;
   justify-content: space-between;
+  padding: 50px 120px;
 }
 
 .navigation-links {
