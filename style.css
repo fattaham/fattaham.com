@@ -57,7 +57,6 @@ body {
 .home-featured-photos {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   gap: 60px;
 }
 
@@ -67,6 +66,13 @@ body {
   justify-content: center;
 }
 
+.rotate-a {
+  transform: rotate(3deg);
+}
+
+.rotate-b {
+  transform: rotate(-3deg);
+}
 .copyright {
   display: flex;
   justify-content: center;
