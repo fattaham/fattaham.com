@@ -91,10 +91,13 @@ body {
 
 .about-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: flex-start;
   gap: 50px;
   margin: 0 auto;
   max-width: 900px;
+  padding: 50px;
+  border-radius: 16px;
 }
 
 .about-text {
