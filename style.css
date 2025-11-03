@@ -93,4 +93,10 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 50px;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.about-text {
+  width: 580px;
 }
