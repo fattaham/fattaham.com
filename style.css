@@ -116,3 +116,15 @@ body {
   align-items: flex-start;
   gap: 60px;
 }
+
+.contact-text {
+  width: 380px;
+  font-size: 15px;
+}
+
+.contact-form {
+  display: flex;
+  width: 100px;
+  flex-direction: column;
+  gap: 15px;
+}
