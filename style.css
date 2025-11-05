@@ -135,11 +135,7 @@ body {
   border: none;
 }
 
-.contact-form input {
-  background-color: #f3f3f3;
-  border: none;
-}
-
+.contact-form input,
 .contact-form textarea {
   background-color: #f3f3f3;
   border: none;
