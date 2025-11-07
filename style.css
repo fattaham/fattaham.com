@@ -106,6 +106,17 @@ body {
   line-height: 150%;
 }
 
+.about-social-media {
+  list-style: none;
+}
+
+.about-social-media li a {
+  color: #000;
+  gap: 80px;
+  text-decoration: none;
+  align-items: center;
+}
+
 .contact-section {
   padding: 100px;
 }
@@ -152,4 +163,9 @@ body {
 
 .contact-form label {
   font-weight: bold;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
 }
