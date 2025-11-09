@@ -109,6 +109,8 @@ body {
 
 .about-social-media {
   list-style: none;
+  display: flex;
+  flex-direction: column;
 }
 
 .about-social-media li a {
