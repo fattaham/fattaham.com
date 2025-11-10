@@ -33,6 +33,7 @@ body {
 
 .navigation-placeholder {
   width: 125px;
+  height: 20px;
   display: none;
 }
 
@@ -188,7 +189,15 @@ body {
 /* Laptop */
 
 @media (min-width: 960px) {
+  .navigation-bar {
+    justify-content: space-between;
+  }
+
   .navigation-bar .logo {
+    display: block;
+  }
+
+  .navigation-placeholder {
     display: block;
   }
 }
