@@ -8,7 +8,7 @@ body {
 .navigation-bar {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 50px;
 }
@@ -33,6 +33,7 @@ body {
 
 .navigation-placeholder {
   width: 125px;
+  display: none;
 }
 
 .home-hero {
