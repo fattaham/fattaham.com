@@ -1,4 +1,4 @@
-/* Mobile to larger */
+/* Small: Mobile to larger */
 
 body {
   font-family: "Inter", sans-serif;
@@ -77,14 +77,17 @@ body {
   margin-top: 80px;
   display: flex;
   justify-content: center;
-  gap: 60px;
   margin-bottom: 80px;
+  width: 100%;
+  gap: 30px;
 }
 
 .home-featured-photos img {
   display: flex;
   border-radius: 20px;
   justify-content: center;
+  width: 100%;
+  max-width: 150px;
 }
 
 .rotate-a {
@@ -189,7 +192,18 @@ body {
   justify-content: center;
 }
 
-/* Laptop */
+/* Medium: Tablet */
+@media (min-width: 675px) {
+  .home-featured-photos {
+    gap: 30px;
+  }
+
+  .home-featured-photos img {
+    max-width: 200px;
+  }
+}
+
+/* Large: Laptop */
 
 @media (min-width: 960px) {
   .navigation-bar {
@@ -206,5 +220,13 @@ body {
 
   .navigation-links {
     gap: 30px;
+  }
+
+  .home-featured-photos {
+    gap: 60px;
+  }
+
+  .home-featured-photos img {
+    max-width: 300px;
   }
 }
