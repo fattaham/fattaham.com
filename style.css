@@ -1,3 +1,5 @@
+/* Mobile to larger */
+
 body {
   font-family: "Inter", sans-serif;
   margin: 0;
@@ -43,6 +45,7 @@ body {
 }
 
 .home-introduction {
+  color: blue;
   font-size: 48px;
   font-weight: bold;
   max-width: 500px;
@@ -176,4 +179,12 @@ body {
 .contact-section {
   display: flex;
   justify-content: center;
+}
+
+/* Desktop */
+
+@media (min-width: 1024px) {
+  .home-introduction {
+    color: green;
+  }
 }
