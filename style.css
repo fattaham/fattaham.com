@@ -45,7 +45,6 @@ body {
 }
 
 .home-introduction {
-  color: blue;
   font-size: 48px;
   font-weight: bold;
   max-width: 500px;
@@ -184,7 +183,4 @@ body {
 /* Desktop */
 
 @media (min-width: 1024px) {
-  .home-introduction {
-    color: green;
-  }
 }
