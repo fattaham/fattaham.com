@@ -118,7 +118,6 @@ body {
   color: #000;
   gap: 80px;
   text-decoration: none;
-  align-items: center;
 }
 
 .contact-section {
@@ -172,4 +171,12 @@ body {
 .contact-section {
   display: flex;
   justify-content: center;
+}
+
+@media (min-width: 1024px) {
+  .home-introduction {
+    color: ;
+  }
+  )
+
 }
