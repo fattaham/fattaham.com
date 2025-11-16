@@ -67,14 +67,16 @@ body {
   margin-top: 80px;
   display: flex;
   justify-content: center;
-  gap: 60px;
+  gap: 20px;
   margin-bottom: 80px;
+  overflow: hidden;
 }
 
 .home-featured-photos img {
   display: flex;
   border-radius: 20px;
   justify-content: center;
+  max-width: 150px;
 }
 
 .rotate-a {
