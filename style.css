@@ -65,15 +65,14 @@ body {
 }
 
 .home-featured-photos {
-  margin-top: 80px;
   display: flex;
   justify-content: center;
-  gap: 20px;
+  margin-top: 80px;
   margin-bottom: 80px;
-  overflow: hidden;
   padding: 10px;
+  overflow: hidden;
+  gap: 20px;
 }
-
 .home-featured-photos img {
   display: flex;
   border-radius: 20px;
@@ -180,6 +179,17 @@ body {
   justify-content: center;
 }
 
+/* Medium / Tablet */
+@media (min-width: 640px) {
+  .home-featured-photos {
+    gap: 40px;
+  }
+  .home-featured-photos img {
+    max-width: 200px;
+  }
+}
+
+/* Large / Laptop / Desktop */
 @media (min-width: 1024px) {
   .navigation-bar {
     justify-content: space-between;
@@ -194,9 +204,8 @@ body {
   }
 
   .home-featured-photos {
-    gap: 80px;
+    gap: 60px;
   }
-
   .home-featured-photos img {
     max-width: 300px;
   }
