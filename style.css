@@ -5,13 +5,9 @@ body {
 
 .navigation-bar {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   padding: 50px 120px;
   align-items: center;
-}
-
-.navigation-bar .logo {
-  display: none;
 }
 
 .navigation-links {
@@ -30,7 +26,6 @@ body {
 
 .navigation-placeholder {
   width: 125px;
-  display: none;
 }
 
 .home-hero {
@@ -43,6 +38,7 @@ body {
   border-radius: 50px;
   width: 100px;
   height: 100px;
+  display: none;
 }
 
 .home-introduction {
@@ -178,5 +174,5 @@ body {
   justify-content: center;
 }
 
-@media (min-width: 960px) {
+@media (min-width: 1px) {
 }
