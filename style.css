@@ -191,4 +191,12 @@ body {
   .navigation-bar .logo {
     display: block;
   }
+
+  .home-featured-photos {
+    gap: 80px;
+  }
+
+  .home-featured-photos img {
+    max-width: 300px;
+  }
 }
