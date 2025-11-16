@@ -178,5 +178,8 @@ body {
   justify-content: center;
 }
 
-@media (min-width: 1px) {
+@media (min-width: 1024px) {
+  .navigation-bar .logo {
+    display: block;
+  }
 }
