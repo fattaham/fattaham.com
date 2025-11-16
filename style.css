@@ -1,5 +1,5 @@
 body {
-  font-family: "Inter" sans-serif;
+  font-family: "Inter", sans-serif;
   margin: 0;
 }
 
@@ -8,6 +8,10 @@ body {
   justify-content: space-between;
   padding: 50px 120px;
   align-items: center;
+}
+
+.navigation-bar .logo {
+  display: none;
 }
 
 .navigation-links {
