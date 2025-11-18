@@ -50,11 +50,9 @@ body {
 }
 
 .home-profile-picture {
-  margin-top: 80px;
   border-radius: 50px;
   width: 100px;
   height: 100px;
-  display: none;
 }
 
 .home-introduction {
