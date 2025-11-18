@@ -102,14 +102,25 @@ body {
 
 .about-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   gap: 50px;
   margin: 0 auto;
   max-width: 900px;
-  padding: 50px;
+  padding: 20px;
   border-radius: 16px;
   margin-bottom: 100px;
+}
+
+.about-profile {
+  display: flex;
+  align-items: flex-end;
+}
+
+.about-profile-picture {
+  height: 200px;
+  object-fit: contain;
 }
 
 .about-text {
@@ -123,6 +134,7 @@ body {
   max-width: 700px;
   padding: 0%;
   gap: 15px;
+  margin: 0;
 }
 
 .about-social-item {
@@ -130,7 +142,6 @@ body {
   display: flex;
   flex-direction: row;
   gap: 10px;
-  padding: 2px;
 }
 
 .about-social-media li a {
