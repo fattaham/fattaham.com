@@ -121,6 +121,16 @@ body {
   display: flex;
   flex-direction: column;
   max-width: 700px;
+  padding: 0%;
+  gap: 15px;
+}
+
+.about-social-item {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 2px;
 }
 
 .about-social-media li a {
