@@ -180,6 +180,13 @@ body {
   justify-content: center;
 }
 
+@media (min-width: 640px) {
+  .home-featured-photos img {
+    max-width: 250px;
+    gap: 70px;
+  }
+}
+
 @media (min-width: 1024px) {
   .navigation-bar {
     justify-content: space-between;
@@ -204,7 +211,4 @@ body {
   .home-introduction {
     font-size: 48px;
   }
-}
-
-@media (min-width: 620px) {
 }
