@@ -192,9 +192,11 @@ body {
 }
 
 @media (min-width: 640px) {
+  .home-featured-photos {
+    gap: 40px;
+  }
   .home-featured-photos img {
     max-width: 250px;
-    gap: 70px;
   }
 }
 
@@ -214,7 +216,6 @@ body {
   .home-featured-photos {
     gap: 80px;
   }
-
   .home-featured-photos img {
     max-width: 300px;
   }
