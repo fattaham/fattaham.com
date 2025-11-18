@@ -160,8 +160,12 @@ body {
   gap: 60px;
 }
 
-.contact-text {
-  font-size: 15px;
+.contact-text h1 {
+  margin: 0;
+}
+
+.contact-text p {
+  max-width: 300px;
 }
 
 .contact-form {
