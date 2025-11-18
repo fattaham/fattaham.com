@@ -110,6 +110,7 @@ body {
   padding: 50px;
   border-radius: 16px;
   margin-bottom: 100px;
+  flex-direction: column;
 }
 
 .about-text {
