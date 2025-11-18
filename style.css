@@ -205,3 +205,6 @@ body {
     font-size: 48px;
   }
 }
+
+@media (min-width: 620px) {
+}
