@@ -151,11 +151,12 @@ body {
 }
 
 .contact-section {
-  padding: 100px;
+  padding: 50px;
 }
 
 .contact-container {
   display: flex;
+  flex-direction: column;
   align-items: flex-start;
   gap: 60px;
 }
@@ -222,6 +223,10 @@ body {
   }
   .about-profile-picture {
     height: 400px;
+  }
+
+  .contact-container {
+    flex-direction: row;
   }
 }
 
