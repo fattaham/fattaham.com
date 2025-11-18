@@ -209,6 +209,16 @@ body {
   .home-featured-photos img {
     max-width: 250px;
   }
+
+  .about-container {
+    flex-direction: row;
+  }
+  .about-profile {
+    flex-direction: column;
+  }
+  .about-profile-picture {
+    height: 400px;
+  }
 }
 
 @media (min-width: 1024px) {
