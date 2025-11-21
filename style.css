@@ -146,6 +146,7 @@ body {
   display: flex;
   align-items: flex-start;
   gap: 60px;
+  flex-direction: column;
 }
 
 .contact-text {
@@ -194,6 +195,13 @@ body {
   .home-featured-photos img {
     max-width: 250px;
     gap: 70px;
+  }
+
+  .contact-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 60px;
   }
 }
 
