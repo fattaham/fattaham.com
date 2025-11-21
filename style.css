@@ -146,7 +146,6 @@ body {
   display: flex;
   align-items: flex-start;
   gap: 60px;
-  flex-direction: column;
 }
 
 .contact-text {
@@ -199,7 +198,6 @@ body {
 
   .contact-container {
     display: flex;
-    flex-direction: row;
     align-items: flex-start;
     gap: 60px;
   }
