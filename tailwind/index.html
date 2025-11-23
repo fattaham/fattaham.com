@@ -3,10 +3,125 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tailwind</title>
+    <title>fattaham.co.id</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body>
-    <h1 class="text-3xl font-bold underline">Tailwind</h1>
+  <body class="w-full flex items-center justify-between px-8 py-6">
+    <nav>
+      <!-- image -->
+      <img
+        class="h-10"
+        src="/images/logo.svg"
+        alt="Logo"
+        width="125"
+        height="55"
+      />
+      <ul class="flex shadow-sm border px-8 gap-6 px-6 py-2 rounded-full">
+        <li>
+          <a href="/" class="text-gray-700 hover: text-black"> Home</a>
+        </li>
+        <li>
+          <a href="/about">About</a>
+        </li>
+        <li>
+          <a href="/contact">Contact</a>
+        </li>
+        <li>
+          <a href="/projects">Projects</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <section>
+        <img
+          src="/images/fattah-home.jpg"
+          alt="Fattah"
+          width="100"
+          height="100"
+        />
+        <h1>
+          Hello, I'm Fattah <br />
+          a Software Engineer
+        </h1>
+        <p>
+          I love learning new things, including law, banking, languages, and
+          modern fields such as coding, UI/UX, and design. I’m also interested
+          in the details of websites and apps. My goal is to grow and become
+          more professional in everything I do.
+        </p>
+
+        <ul>
+          <li>
+            <a href="https://x.com/haaaghuman" target="_blank">
+              <img src="/images/icon-x.svg" alt="icon-x" />
+            </a>
+          </li>
+          <li>
+            <a href="https://instagram.com/fattahabdulmm" target="_blank">
+              <img src="/images/icon-instagram.svg" alt="icon-instagram" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/fattaham/fattaham.com.git"
+              target="_blank"
+            >
+              <img src="/images/icon-github.svg" alt="icon-github" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://linkedin.com/in/fattah-abdul-malik"
+              target="_blank"
+            >
+              <img src="/images/icon-linkedin.svg" alt="icon-linkedin" />
+            </a>
+          </li>
+          <li>
+            <a href="https://t.me/fattahabdulmm" target="_blank">
+              <img src="/images/icon-telegram.svg" alt="icon-telegram" />
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/6287882868095" target="_blank">
+              <img src="/images/icon-whatsapp.svg" alt="icon-whatsapp" />
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <img
+          src="/images/fattah-malaysia-1.jpg"
+          alt="Fattah in Malaysia 1"
+          width="300"
+        />
+        <img
+          src="/images/fattah-singapore-1.jpg"
+          alt="Fattah in Singapore 1"
+          width="300"
+        />
+        <img
+          src="/images/fattah-singapore-2.jpg"
+          alt="Fattah in Singapore 2"
+          width="300"
+        />
+        <img
+          src="/images/fattah-thailand-1.jpg"
+          alt="Fattah in Thailand 1"
+          width="300"
+        />
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 Fattah Abdul Malik. All rights reserved.</p>
+    </footer>
   </body>
 </html>
