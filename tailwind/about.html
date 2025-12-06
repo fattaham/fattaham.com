@@ -13,17 +13,21 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <nav class="navigation-bar">
+    <nav
+      class="w-full flex items-center justify-center md:justify-between px-8 py-6"
+    >
       <img
-        class="logo"
+        class="h-10 hidden md:block"
         src="/images/logo.svg"
         alt="Logo"
         width="125"
         height="55"
       />
-      <ul class="navigation-links">
+      <ul
+        class="flex shadow-sm border-neutral-300 px-8 gap-6 px-6 py-2 rounded-full"
+      >
         <li>
-          <a href="/">Home</a>
+          <a href="/"> Home</a>
         </li>
         <li>
           <a href="/about">About</a>
@@ -35,7 +39,7 @@
           <a href="/projects">Projects</a>
         </li>
       </ul>
-      <div class="navigation-placeholder"></div>
+      <div></div>
     </nav>
 
     <main class="about-container site-content">
