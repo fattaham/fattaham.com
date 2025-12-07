@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body class="site">
+    <nav class="navigation-bar">
+      <img
+        class="logo"
+        src="/images/logo.svg"
+        alt="Logo"
+        width="125"
+        height="55"
+      />
+      <ul class="navigation-links">
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="/about">About</a>
+        </li>
+        <li>
+          <a href="/contact">Contact</a>
+        </li>
+        <li>
+          <a href="/projects">Projects</a>
+        </li>
+      </ul>
+      <div class="navigation-placeholder"></div>
+    </nav>
+    <main class="site-content">
+      <section class="contact-section">
+        <div class="contact-container">
+          <div class="contact-text">
+            <h1>Let's Connect</h1>
+            <p>
+              Hey :), Got a question, idea, collab, or just wanna say hi? Feel
+              free to hit me up, and I'm always for a good convo
+            </p>
+          </div>
+
+          <form class="contact-form">
+            <div>
+              <label for="full-name">Full Name</label>
+              <input id="full-name" name="full-name" type="text" />
+            </div>
+            <div>
+              <label for="email">E-mail</label>
+              <input id="email" name="email" type="email" />
+            </div>
+            <div>
+              <label for="message">Message</label>
+              <textarea name="message" id="message"></textarea>
+            </div>
+
+            <button class="button" type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="copyright">
+        &copy; 2025 Fattah Abdul Malik. All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>

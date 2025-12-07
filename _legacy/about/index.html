@@ -3,31 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fattah Abdul Malik</title>
+    <title>About Fattah Abdul Malik</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="/style.css" />
   </head>
-  <body>
-    <nav
-      class="w-full flex items-center justify-center md:justify-between px-8 py-6"
-    >
+  <body class="site">
+    <nav class="navigation-bar">
       <img
-        class="h-10 hidden md:block"
+        class="logo"
         src="/images/logo.svg"
         alt="Logo"
         width="125"
         height="55"
       />
-      <ul
-        class="flex shadow-sm border-neutral-300 px-8 gap-6 px-6 py-2 rounded-full"
-      >
+      <ul class="navigation-links">
         <li>
-          <a href="/"> Home</a>
+          <a href="/">Home</a>
         </li>
         <li>
           <a href="/about">About</a>
@@ -39,7 +35,7 @@
           <a href="/projects">Projects</a>
         </li>
       </ul>
-      <div></div>
+      <div class="navigation-placeholder"></div>
     </nav>
 
     <main class="about-container site-content">
@@ -135,6 +131,7 @@
         </ul>
       </section>
     </main>
+
     <footer class="footer">
       <p class="copyright">
         &copy; 2025 Fattah Abdul Malik. All rights reserved.
