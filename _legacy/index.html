@@ -10,24 +10,20 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="/_legacy/style.css" />
   </head>
-  <body>
-    <nav
-      class="w-full flex items-center justify-center md:justify-between px-8 py-6"
-    >
+  <body class="site">
+    <nav class="navigation-bar">
       <img
-        class="h-10 hidden md:block"
+        class="logo"
         src="/images/logo.svg"
         alt="Logo"
         width="125"
         height="55"
       />
-      <ul
-        class="flex shadow-sm border-neutral-300 px-8 gap-6 px-6 py-2 rounded-full"
-      >
+      <ul class="navigation-links">
         <li>
-          <a href="/"> Home</a>
+          <a href="/">Home</a>
         </li>
         <li>
           <a href="/about">About</a>
@@ -39,30 +35,29 @@
           <a href="/projects">Projects</a>
         </li>
       </ul>
-      <div></div>
+      <div class="navigation-placeholder"></div>
     </nav>
-
-    <main>
-      <section class="mt-20 flex flex-col max-w-4xl mx-auto p-20 gap-6">
+    <main class="site-content">
+      <section class="home-hero">
         <img
-          class="rounded-full object-cover w-20 h-20"
+          class="home-profile-picture"
           src="/images/fattah-home.jpg"
           alt="Fattah"
           width="100"
           height="100"
         />
-        <h1 class="text-4xl font-bold leading-tight">
+        <h1 class="home-introduction">
           Hello, I'm Fattah <br />
           a Software Engineer
         </h1>
-        <p class="text-xl leading-tight">
+        <p class="home-bio">
           I love learning new things, including law, banking, languages, and
           modern fields such as coding, UI/UX, and design. I’m also interested
           in the details of websites and apps. My goal is to grow and become
           more professional in everything I do.
         </p>
 
-        <ul class="flex flex-row gap-6">
+        <ul class="home-social-media-links">
           <li>
             <a href="https://x.com/haaaghuman" target="_blank">
               <img src="/images/icon-x.svg" alt="icon-x" />
@@ -102,35 +97,42 @@
         </ul>
       </section>
 
-      <section class="flex flex-row gap-25 justify-center">
+      <section class="home-featured-photos">
         <img
-          class="rounded-xl rotate-3"
+          class="rotate-a"
           src="/images/fattah-malaysia-1.jpg"
           alt="Fattah in Malaysia 1"
           width="300"
         />
         <img
-          class="rounded-xl -rotate-3"
+          class="rotate-b"
           src="/images/fattah-singapore-1.jpg"
           alt="Fattah in Singapore 1"
           width="300"
         />
         <img
-          class="rounded-xl rotate-2"
+          class="rotate-a"
           src="/images/fattah-singapore-2.jpg"
           alt="Fattah in Singapore 2"
           width="300"
         />
         <img
-          class="rounded-xl -rotate-2"
+          class="rotate-b"
           src="/images/fattah-thailand-1.jpg"
           alt="Fattah in Thailand 1"
           width="300"
         />
       </section>
     </main>
+<<<<<<< HEAD:tailwind/index.html
     <footer class="text-center py-20 px-5 text-gray-300">
       <p>&copy; 2025 Fattah Abdul Malik. All rights reserved.</p>
+=======
+    <footer class="footer">
+      <p class="copyright">
+        &copy; 2025 Fattah Abdul Malik. All rights reserved.
+      </p>
+>>>>>>> 4ea79069db3c97dba0a1c0185026d80a41a7638a:_legacy/index.html
     </footer>
   </body>
 </html>

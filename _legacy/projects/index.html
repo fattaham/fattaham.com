@@ -10,24 +10,20 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="/_legacy/style.css" />
   </head>
-  <body>
-    <nav
-      class="w-full flex items-center justify-center md:justify-between px-8 py-6"
-    >
+  <body class="site">
+    <nav class="navigation-bar">
       <img
-        class="h-10 hidden md:block"
+        class="logo"
         src="/images/logo.svg"
         alt="Logo"
         width="125"
         height="55"
       />
-      <ul
-        class="flex shadow-sm border-neutral-300 px-8 gap-6 px-6 py-2 rounded-full"
-      >
+      <ul class="navigation-links">
         <li>
-          <a href="/"> Home</a>
+          <a href="/">Home</a>
         </li>
         <li>
           <a href="/about">About</a>
@@ -39,7 +35,15 @@
           <a href="/projects">Projects</a>
         </li>
       </ul>
-      <div></div>
+      <div class="navigation-placeholder"></div>
     </nav>
+    <main class="site-content">
+      <h1>Projects</h1>
+    </main>
+    <footer class="footer">
+      <p class="copyright">
+        &copy; 2025 Fattah Abdul Malik. All rights reserved.
+      </p>
+    </footer>
   </body>
 </html>

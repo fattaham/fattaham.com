@@ -10,20 +10,24 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body class="site">
-    <nav class="navigation-bar">
+  <body class="flex flex-col min-h-screen">
+    <nav
+      class="w-full flex items-center justify-center md:justify-between px-8 py-6"
+    >
       <img
-        class="logo"
+        class="h-10 hidden md:block"
         src="/images/logo.svg"
         alt="Logo"
         width="125"
         height="55"
       />
-      <ul class="navigation-links">
+      <ul
+        class="flex shadow-sm border-neutral-300 px-8 gap-6 px-6 py-2 rounded-full"
+      >
         <li>
-          <a href="/">Home</a>
+          <a href="/"> Home</a>
         </li>
         <li>
           <a href="/about">About</a>
@@ -35,105 +39,147 @@
           <a href="/projects">Projects</a>
         </li>
       </ul>
-      <div class="navigation-placeholder"></div>
+      <div></div>
     </nav>
 
-    <main class="about-container site-content">
-      <section class="about-text">
-        <h1>Hi, call me Fattah</h1>
+    <main
+      class="flex flex-col md:flex-row justify-center items-start gap-8 md:gap-12 lg:gap-16 max-w-4xl px-4 sm:px-6 md:px-8 lg:p-12 py-8 md:py-12 rounded-2xl mb-16 md:mb-24 mx-auto flex-1"
+    >
+      <div class="flex flex-col-reverse gap-10 md:flex-row">
+        <section
+          class="leading-relaxed text-base sm:text-lg md:text-xl space-y-4 md:space-y-5 flex-1"
+        >
+          <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 md:mb-6">
+            Hi, call me Fattah
+          </h1>
 
-        <p>
-          Hi I’m Fattah, was born in Bandung in 1999, and live in Bekasi. I love
-          learning new things, including law, banking, languages, and modern
-          field such as coding. I’m an intuitive person by nature and able to
-          sense pattern and understand people, who combines instinct with
-          updated data and current literature to make better decision, in a
-          world so changes so fast.
-        </p>
-        <p>
-          I graduated with a Bachelor’s degree in Law, specializing in
-          International Economic Law, where I focused on areas such as
-          Copyright, Patents, and Intellectual Property. After graduation, I
-          worked at Bank Rakyat Indonesia as a Bank Teller, and Customer Service
-          Representative, gaining valuable experience in communication, customer
-          relations, and problem-solving.
-        </p>
-        <p>
-          Turning knowledge into a professional world result, I value
-          sustainable learning based on research and apply insight an a
-          practical way. Building sustainable in a long-term growth always be my
-          priorities to make a big changes, and guided by the principle of
-          Kaizen 1% that is focusing on small and meaningful step in every day.
-        </p>
-        <p>
-          I believe, to focusing to every little thing in every step will be
-          truly matter, and become a powerful create and transformative result.
-        </p>
-        <p>
-          Alongside my legal and banking background, I am passionate about
-          continuous learning and professional growth. I am currently developing
-          skills in Web Development, UI/UX Design, and Digital Technology, with
-          the ambition to combine my expertise in law and finance with modern
-          digital innovations.
-        </p>
-        <p>
-          And now fluent in Indonesian, English, German, and Sundanese, I bring
-          strong cross-cultural communication skills. I am committed to
-          improving my professional life and striving toward becoming a
-          well-rounded professional who can adapt to global challenges and
-          opportunities.
-        </p>
-      </section>
+          <p>
+            Hi I'm Fattah, was born in Bandung in 1999, and live in Bekasi. I
+            love learning new things, including law, banking, languages, and
+            modern field such as coding. I'm an intuitive person by nature and
+            able to sense pattern and understand people, who combines instinct
+            with updated data and current literature to make better decision, in
+            a world so changes so fast.
+          </p>
+          <p>
+            I graduated with a Bachelor's degree in Law, specializing in
+            International Economic Law, where I focused on areas such as
+            Copyright, Patents, and Intellectual Property. After graduation, I
+            worked at Bank Rakyat Indonesia as a Bank Teller, and Customer
+            Service Representative, gaining valuable experience in
+            communication, customer relations, and problem-solving.
+          </p>
+          <p>
+            Turning knowledge into a professional world result, I value
+            sustainable learning based on research and apply insight an a
+            practical way. Building sustainable in a long-term growth always be
+            my priorities to make a big changes, and guided by the principle of
+            Kaizen 1% that is focusing on small and meaningful step in every
+            day.
+          </p>
+          <p>
+            I believe, to focusing to every little thing in every step will be
+            truly matter, and become a powerful create and transformative
+            result.
+          </p>
+          <p>
+            Alongside my legal and banking background, I am passionate about
+            continuous learning and professional growth. I am currently
+            developing skills in Web Development, UI/UX Design, and Digital
+            Technology, with the ambition to combine my expertise in law and
+            finance with modern digital innovations.
+          </p>
+          <p>
+            And now fluent in Indonesian, English, German, and Sundanese, I
+            bring strong cross-cultural communication skills. I am committed to
+            improving my professional life and striving toward becoming a
+            well-rounded professional who can adapt to global challenges and
+            opportunities.
+          </p>
+        </section>
 
-      <section>
-        <img
-          class="images-fattah-about"
-          src="/images/fattah-about.jpg"
-          alt="Fattah Profile Picture in About Page"
-          width="200"
-        />
+        <section
+          class="flex flex-col items-center md:items-start w-full md:w-auto"
+        >
+          <img
+            class="rounded-lg object-cover w-32 sm:w-40 md:w-48 lg:w-56 mb-6 md:mb-8"
+            src="/images/fattah-about.jpg"
+            alt="Fattah Profile Picture in About Page"
+          />
 
-        <ul class="about-social-media">
-          <li class="about-social-item">
-            <img src="/images/icon-x-about.svg" alt="icon-x-about" width="30" />
-            <a href="https://x.com/haaaghuman"> Follow on X</a>
-          </li>
-          <li class="about-social-item">
-            <img
-              src="/images/icon-instagram-about.svg"
-              alt="icon-instagram-about"
-              width="30"
-            />
-            <a href="https://instagram.com/fattahabdulmm">
-              Follow on Instagram</a
+          <ul
+            class="list-none flex flex-col w-full md:w-auto p-0 gap-3 md:gap-4"
+          >
+            <li
+              class="items-center flex flex-row gap-2.5 md:gap-3 min-w-[200px]"
             >
-          </li>
-          <li class="about-social-item">
-            <img
-              src="/images/icon-github-about.svg"
-              alt="icon-github-about"
-              width="30"
-            />
-            <a href="https://github.com/fattaham/fattaham.com.git">
-              Follow on GitHub</a
+              <img
+                src="/images/icon-x-about.svg"
+                alt="icon-x-about"
+                width="30"
+                class="flex-shrink-0"
+              />
+              <a
+                href="https://x.com/haaaghuman"
+                class="text-base sm:text-lg md:text-xl"
+              >
+                Follow on X</a
+              >
+            </li>
+            <li
+              class="items-center flex flex-row gap-2.5 md:gap-3 min-w-[200px]"
             >
-          </li>
-          <li class="about-social-item">
-            <img
-              src="/images/icon-linkedin-about.svg"
-              alt="icon-linkedin-about"
-              width="30"
-            />
-            <a href="https://linkedin.com/in/fattah-abdul-malik">
-              Follow on LinkedIn</a
+              <img
+                src="/images/icon-instagram-about.svg"
+                alt="icon-instagram-about"
+                width="30"
+                class="flex-shrink-0"
+              />
+              <a
+                href="https://instagram.com/fattahabdulmm"
+                class="text-base sm:text-lg md:text-xl"
+              >
+                Follow on Instagram</a
+              >
+            </li>
+            <li
+              class="items-center flex flex-row gap-2.5 md:gap-3 min-w-[200px]"
             >
-          </li>
-        </ul>
-      </section>
+              <img
+                src="/images/icon-github-about.svg"
+                alt="icon-github-about"
+                width="30"
+                class="flex-shrink-0"
+              />
+              <a
+                href="https://github.com/fattaham/fattaham.com.git"
+                class="text-base sm:text-lg md:text-xl"
+              >
+                Follow on GitHub</a
+              >
+            </li>
+            <li
+              class="items-center flex flex-row gap-2.5 md:gap-3 min-w-[200px]"
+            >
+              <img
+                src="/images/icon-linkedin-about.svg"
+                alt="icon-linkedin-about"
+                width="30"
+                class="flex-shrink-0"
+              />
+              <a
+                href="https://linkedin.com/in/fattah-abdul-malik"
+                class="text-base sm:text-lg md:text-xl"
+              >
+                Follow on LinkedIn</a
+              >
+            </li>
+          </ul>
+        </section>
+      </div>
     </main>
-
-    <footer class="footer">
-      <p class="copyright">
+    <footer class="p-6 md:p-8">
+      <p class="flex justify-center text-gray-400 m-0 text-sm md:text-base">
         &copy; 2025 Fattah Abdul Malik. All rights reserved.
       </p>
     </footer>
